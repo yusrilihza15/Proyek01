@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertAndViewActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbBar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text=" Nama File :"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <EditText
+            android:padding="5dp"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:id="@+id/etNama"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+        <TextView
+            android:text=" Catatan :"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <EditText
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:gravity="left|top"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:singleLine="false"
+            android:id="@+id/etCatatan"
+            android:background="#ccf"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="Autofill,InefficientWeight,LabelFor,RtlHardcoded,TextFields" />
+        <Button
+            android:id="@+id/btSimpan"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:text="Simpan"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

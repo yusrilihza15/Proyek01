@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/miTambah"
+        android:icon="@drawable/logo"
+        android:orderInCategory="300"
+        android:title="Tambah"
+        />
+
+
+</menu>
